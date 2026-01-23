@@ -1,0 +1,21 @@
+{
+  "dataset": "olist_order_items_dataset.csv",
+  "entity": "order_items",
+  "description": "Line-level order item details for each order",
+  "primary_key": ["order_id", "order_item_id"],
+  "alternate_keys": [],
+  "foreign_keys": {
+    "order_id": "olist_orders_dataset",
+    "product_id": "olist_products_dataset",
+    "seller_id": "olist_sellers_dataset"
+  },
+  "attributes": [
+    "price",
+    "freight_value"
+  ],
+  "timestamps": {
+    "event": [],
+    "sla": ["shipping_limit_date"]
+  },
+  "role": "fact"
+}

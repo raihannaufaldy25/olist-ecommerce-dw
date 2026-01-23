@@ -1,0 +1,20 @@
+{
+  "dataset": "olist_order_payments_dataset.csv",
+  "entity": "order_payments",
+  "description": "Payment transaction details associated with each order",
+  "primary_key": ["order_id", "payment_sequential"],
+  "alternate_keys": [],
+  "foreign_keys": {
+    "order_id": "olist_orders_dataset"
+  },
+  "attributes": [
+    "payment_type",
+    "payment_installments",
+    "payment_value"
+  ],
+  "timestamps": {
+    "event": [],
+    "sla": []
+  },
+  "role": "fact"
+}

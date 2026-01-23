@@ -1,0 +1,16 @@
+{
+  "dataset": "product_category_name_translation.csv",
+  "entity": "product_category_translation",
+  "description": "Reference table providing English translations for product categories",
+  "primary_key": ["product_category_name"],
+  "alternate_keys": [],
+  "foreign_keys": {},
+  "attributes": [
+    "product_category_name_english"
+  ],
+  "timestamps": {
+    "event": [],
+    "sla": []
+  },
+  "role": "reference"
+}

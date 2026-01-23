@@ -1,0 +1,20 @@
+{
+  "dataset": "olist_geolocation_dataset.csv",
+  "entity": "geolocation",
+  "description": "Reference geolocation data used for location-based lookups",
+  "primary_key": [],
+  "alternate_keys": [],
+  "foreign_keys": {},
+  "attributes": [
+    "geolocation_zip_code_prefix",
+    "geolocation_lat",
+    "geolocation_lng",
+    "geolocation_city",
+    "geolocation_state"
+  ],
+  "timestamps": {
+    "event": [],
+    "sla": []
+  },
+  "role": "reference"
+}

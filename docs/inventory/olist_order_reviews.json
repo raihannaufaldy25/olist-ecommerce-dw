@@ -1,0 +1,23 @@
+{
+  "dataset": "olist_order_reviews_dataset.csv",
+  "entity": "order_reviews",
+  "description": "Reference table providing English translations for product categories",
+  "primary_key": ["review_id"],
+  "alternate_keys": [],
+  "foreign_keys": {
+    "order_id": "olist_orders_dataset"
+  },
+  "attributes": [
+    "review_score",
+    "review_comment_title",
+    "review_comment_message"
+  ],
+  "timestamps": {
+    "event": [
+      "review_creation_date",
+      "review_answer_timestamp"
+    ],
+    "sla": []
+  },
+  "role": "fact"
+}

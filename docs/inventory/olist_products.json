@@ -1,0 +1,23 @@
+{
+  "dataset": "olist_products_dataset.csv",
+  "entity": "products",
+  "description": "Detailed product master data including physical and categorical attributes",
+  "primary_key": ["product_id"],
+  "alternate_keys": [],
+  "foreign_keys": {},
+  "attributes": [
+    "product_category_name",
+    "product_name_lenght",
+    "product_description_lenght",
+    "product_photos_qty",
+    "product_weight_g",
+    "product_length_cm",
+    "product_height_cm",
+    "product_width_cm"
+  ],
+  "timestamps": {
+    "event": [],
+    "sla": []
+  },
+  "role": "dimension"
+}

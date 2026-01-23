@@ -1,0 +1,18 @@
+{
+  "dataset": "olist_customers_dataset.csv",
+  "entity": "customers",
+  "description": "Customer master data for users who have placed orders on Olist",
+  "primary_key": ["customer_id"],
+  "alternate_keys": ["customer_unique_id"],
+  "foreign_keys": {},
+  "attributes": [
+    "customer_zip_code_prefix",
+    "customer_city",
+    "customer_state"
+  ],
+  "timestamps": {
+    "event": [],
+    "sla": []
+  },
+  "role": "dimension"
+}

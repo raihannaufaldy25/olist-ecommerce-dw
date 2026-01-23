@@ -1,0 +1,18 @@
+{
+  "dataset": "olist_sellers_dataset.csv",
+  "entity": "sellers",
+  "description": "Seller master data representing merchants selling products on Olist",
+  "primary_key": ["seller_id"],
+  "alternate_keys": [],
+  "foreign_keys": {},
+  "attributes": [
+    "seller_zip_code_prefix",
+    "seller_city",
+    "seller_state"
+  ],
+  "timestamps": {
+    "event": [],
+    "sla": []
+  },
+  "role": "dimension"
+}

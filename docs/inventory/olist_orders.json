@@ -1,0 +1,23 @@
+{
+  "dataset": "olist_orders_dataset.csv",
+  "entity": "orders",
+  "description": "Order transaction data created by customers on Olist",
+  "primary_key": ["order_id"],
+  "alternate_keys": [],
+  "foreign_keys": {
+    "customer_id" : "olist_customers_dataset"
+  },
+  "attributes": ["order_status"],
+  "timestamps": {
+    "event": [
+      "order_purchase_timestamp",
+      "order_approved_at",
+      "order_delivered_carrier_date",
+      "order_delivered_customer_date"
+    ],
+    "sla": [
+      "order_estimated_delivery_date"
+    ]
+  },
+  "role": "fact"
+}
