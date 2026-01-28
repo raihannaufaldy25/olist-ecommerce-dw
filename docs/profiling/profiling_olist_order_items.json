@@ -1,0 +1,43 @@
+{
+    "table_name": "olist_order_items",
+    "table_format": "csv",
+    "n_rows": 112650,
+    "n_cols": 7,
+    "column_information": {
+        "order_id": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "order_item_id": {
+            "data_type": "int64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "product_id": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "seller_id": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "shipping_limit_date": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "price": {
+            "data_type": "float64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "freight_value": {
+            "data_type": "float64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        }
+    }
+}

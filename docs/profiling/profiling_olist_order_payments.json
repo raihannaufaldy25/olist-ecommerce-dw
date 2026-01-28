@@ -1,0 +1,33 @@
+{
+    "table_name": "olist_order_payments",
+    "table_format": "csv",
+    "n_rows": 103886,
+    "n_cols": 5,
+    "column_information": {
+        "order_id": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "payment_sequential": {
+            "data_type": "int64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "payment_type": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "payment_installments": {
+            "data_type": "int64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "payment_value": {
+            "data_type": "float64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        }
+    }
+}

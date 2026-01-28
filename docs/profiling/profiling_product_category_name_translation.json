@@ -1,0 +1,18 @@
+{
+    "table_name": "product_category_name_translation",
+    "table_format": "csv",
+    "n_rows": 71,
+    "n_cols": 2,
+    "column_information": {
+        "product_category_name": {
+            "data_type": "object",
+            "uniqueness": "strict_unique",
+            "null_count": 0
+        },
+        "product_category_name_english": {
+            "data_type": "object",
+            "uniqueness": "strict_unique",
+            "null_count": 0
+        }
+    }
+}

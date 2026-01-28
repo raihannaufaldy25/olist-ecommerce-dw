@@ -1,0 +1,28 @@
+{
+    "table_name": "olist_sellers",
+    "table_format": "csv",
+    "n_rows": 3095,
+    "n_cols": 4,
+    "column_information": {
+        "seller_id": {
+            "data_type": "object",
+            "uniqueness": "strict_unique",
+            "null_count": 0
+        },
+        "seller_zip_code_prefix": {
+            "data_type": "int64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "seller_city": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "seller_state": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        }
+    }
+}

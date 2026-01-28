@@ -1,0 +1,33 @@
+{
+    "table_name": "olist_geolocation",
+    "table_format": "csv",
+    "n_rows": 1000163,
+    "n_cols": 5,
+    "column_information": {
+        "geolocation_zip_code_prefix": {
+            "data_type": "int64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "geolocation_lat": {
+            "data_type": "float64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "geolocation_lng": {
+            "data_type": "float64",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "geolocation_city": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        },
+        "geolocation_state": {
+            "data_type": "object",
+            "uniqueness": "non_unique",
+            "null_count": 0
+        }
+    }
+}
